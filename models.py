@@ -4,7 +4,7 @@ from jax import config
 import dLux as dl
 from dLux.models import Toliman, SimpleToliman, AlphaCen
 
-if config['jax_enable_x64']:
+if config.jax_enable_x64:
     basis_path = "data/basis_64.npy"
 else:
     basis_path = "data/basis_32.npy"
