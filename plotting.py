@@ -1,3 +1,4 @@
+import jax.numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import colormaps
 from bayes import get_covaraince
